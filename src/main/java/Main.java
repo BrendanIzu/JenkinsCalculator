@@ -20,6 +20,7 @@ public class Main {
             }
 
             if (inputs[0] == "subtract") {
+                System.out.println("IN THE ADD FUNCTION");
                 int sol = calculator.subtract(Integer.parseInt(inputs[1]), Integer.parseInt(inputs[2]));
                 System.out.println(sol);
             }
