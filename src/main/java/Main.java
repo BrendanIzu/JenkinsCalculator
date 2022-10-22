@@ -11,7 +11,10 @@ public class Main {
                 break;
             }
 
-            System.out.println(input);
+            String[] inputs = input.split(" ");
+            for (String value : inputs) {
+                System.out.println(value);
+            }
         }
     }
 }
